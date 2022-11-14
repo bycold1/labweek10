@@ -1,38 +1,76 @@
-.App {
+form {
+  border: 2px solid green;
+  padding: 2rem;
+  width: 1222px;
+  margin: auto;
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  margin: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+div.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+#nameVal, #emailval {
+  width: 100%;
+}
+
+#addrval, #AddressVal, #cityval, #pr, #posval {
+  width: 100%;
+}
+
+#prlabel {
+  margin-bottom: 0.8rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type=checkbox] {
+  margin-left: 30rem;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#btn {
+  background-color: green;
   color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  display: block;
+  margin-left: 35rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.opdiv {
+  border: 2px solid green;
+  font-size: x-large;
+  margin: 4rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 1180px;
+  color: #291081;
+  font-family:"Some Custom Font", serif;
+        text-shadow:0 0 1px transparent;
+        text-shadow:0 0 0 #f00, 0 0 1px transparent;
 }
